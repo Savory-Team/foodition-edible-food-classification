@@ -32,7 +32,7 @@ def process_images(input_folder, output_folder):
     
 
 if __name__ == "__main__":
-    input_folder = 'D:\TITO\Documents\Deep-learning\edible-classification\dataset\\bread_internet'
-    output_folder = 'D:\TITO\Documents\Deep-learning\edible-classification\dataset\\bread_internet-remove'
+    input_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/rice-edible-notrm'
+    output_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/rice-edbile'
 
     process_images(input_folder, output_folder)
