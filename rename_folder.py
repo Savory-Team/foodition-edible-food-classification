@@ -9,7 +9,7 @@ def rename_files(folder_path):
 
     # Counter for numbering files
     count = 1
-    label = "bread"
+    label = "bread_inedible"
 
     # Iterate over each file and rename it
     for file_name in files:
@@ -30,7 +30,7 @@ def rename_files(folder_path):
 
 if __name__ == "__main__":
     # Specify the folder path where you want to rename files
-    folder_path = "D:\TITO\Documents\Deep-learning\edible-classification\dataset\\bread-edible-remove"
+    folder_path = "D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset\\bread-inedible"
 
     # Call the function to rename files in the specified folder
     rename_files(folder_path)
