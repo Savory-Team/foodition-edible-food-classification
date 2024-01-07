@@ -31,6 +31,6 @@ def delete_random_pictures(folder_path, min_count=500, max_count=550):
     print(f"Remaining pictures count: {len(os.listdir(folder_path))}")
 
 # Replace 'your_folder_path' with the path to your folder containing pictures
-folder_path = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/mango-inedible'
+folder_path = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/chicken-edible'
 
 delete_random_pictures(folder_path)

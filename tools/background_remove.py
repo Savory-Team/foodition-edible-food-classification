@@ -32,7 +32,7 @@ def process_images(input_folder, output_folder):
     
 
 if __name__ == "__main__":
-    input_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/mango-inedible-notrm'
-    output_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/mango-inedible-rm'
+    input_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/chicken-inedible'
+    output_folder = 'D:\TITO\Documents\Deep-learning\FOODITION-FOOD-EDIBLE-CLASSIFICATION\dataset/chicken-inedible-rm'
 
     process_images(input_folder, output_folder)
