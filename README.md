@@ -32,7 +32,8 @@ The deep learning model is built using the TensorFlow Keras libraries. The archi
 
 
 ### training and validation loss graph
-![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/52f0f9d7-e077-4f3c-8844-0a07f858c651)
+![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/53146ab5-9d37-44fd-90ad-761db4441ea6)
+
 
 
 ### training and validation acccuracy on last epoch
