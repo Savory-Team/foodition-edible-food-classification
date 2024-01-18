@@ -23,28 +23,57 @@ The deep learning model is built using the TensorFlow Keras libraries. The archi
 - Training the model on the dataset
 
 ## Data split
-![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/28c21ce9-df49-48bf-bf97-302487377af9)
+![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/8d6f8541-5860-4f19-9d72-2e3d42d325d2)
+
 
 
 ## Training Result
 ### training and validation acccuracy graph
-![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/67f9517e-24ba-4858-aa3b-12d32c564ce9)
+![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/5b400acd-4f6c-4de9-8861-7ba4a5ef7bf5)
+
 
 
 ### training and validation loss graph
-![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/53146ab5-9d37-44fd-90ad-761db4441ea6)
+![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/fabe835e-e958-47c3-8ecf-8c92be830c44)
+
 
 
 
 ### training and validation acccuracy on last epoch
 ```bash
-Epoch 9/10
-368/368 [==============================] - 24s 65ms/step - loss: 0.0970 - accuracy: 0.9691 - categorical_accuracy: 0.0644 - val_loss: 0.0344 - val_accuracy: 0.9893 - val_categorical_accuracy: 0.0559 - lr: 4.4933e-04
-Epoch 10/10
-368/368 [==============================] - 23s 64ms/step - loss: 0.0921 - accuracy: 0.9708 - categorical_accuracy: 0.0636 - val_loss: 0.0332 - val_accuracy: 0.9889 - val_categorical_accuracy: 0.0559 - lr: 4.0657e-04
+Epoch 21/25
+769/769 [==============================] - 73s 95ms/step - loss: 0.4648 - accuracy: 0.8301 - val_loss: 0.6558 - val_accuracy: 0.8547 - lr: 1.3534e-04
+Epoch 22/25
+769/769 [==============================] - 72s 93ms/step - loss: 0.4551 - accuracy: 0.8370 - val_loss: 0.6658 - val_accuracy: 0.8547 - lr: 1.2246e-04
 ```
-### Confusion matrix
-![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/7e75cd91-63ed-49f1-8d06-66b1f6315bc4)
+### Testing
+![image](https://github.com/Savory-Team/foodition-edible-food-classification/assets/97221880/29d1edc0-da78-451b-b088-6c0b2733f533)
+
+```
+Incorrect Predictions:
+Image: /kaggle/input/foodition-test/foodition-test/nasi-jelek/Screenshot_2024-01-09-21-19-04-055_com.miui.videoplayer.jpg
+Actual Class: nasi-jelek
+Predicted Class: rice - edible
+
+Image: /kaggle/input/foodition-test/foodition-test/pizza-jelek/old-moldy-pizza-on-wooden-260nw-439304512.jpg
+Actual Class: pizza-jelek
+Predicted Class: edible
+
+Image: /kaggle/input/foodition-test/foodition-test/jeruk-jelek/stale-orange-white-green-mold-260nw-1643846443.jpeg
+Actual Class: jeruk-jelek
+Predicted Class: egg - edible
+
+Image: /kaggle/input/foodition-test/foodition-test/roti-jelek/well_moldy-tmagArticle.jpg
+Actual Class: roti-jelek
+Predicted Class: bread - edible
+
+Image: /kaggle/input/foodition-test/foodition-test/roti-jelek/download (2).jpeg
+Actual Class: roti-jelek
+Predicted Class: bread - edible
+
+Accuracy: 88.64%
+```
+
 
 # Technology we to use in model
 - Python : The main programming language will be used in this project 
